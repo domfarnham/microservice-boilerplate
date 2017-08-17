@@ -1,22 +1,26 @@
 {
-	"name": "some-name",
-	"version": "0.1.0",
-	"description": "some-description",
-	"dependencies": {
-		"express": "^4.14.0",
-		"mongodb": "3.4.7" 
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"engines": {
-		"node": "6.11.2"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/domfarnham/some-name"
-	},
-	"license": "ISC",
-	"author": "dominic farnham"
+  "name": "some-name",
+  "version": "0.1.0",
+  "description": "some-description",
+  "dependencies": {
+    "express": "~4.15.4",
+    "mongodb": "~2.2.31"
+  },
+  "devDependencies": {
+    "standard": "*"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "standard"
+  },
+  "engines": {
+    "node": "~6.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/domfarnham/some-name"
+  },
+  "license": "ISC",
+  "author": "dominic farnham"
 }
