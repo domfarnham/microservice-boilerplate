@@ -6,9 +6,13 @@
     "express": "~4.15.4",
     "mongodb": "~2.2.31"
   },
+  "devDependencies": {
+    "standard": "*"
+  },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "standard"
   },
   "engines": {
     "node": "~6.11.2"
