@@ -7,15 +7,17 @@
     "mongodb": "~2.2.31"
   },
   "devDependencies": {
-    "standard": "*"
+    "standard": "*",
+    "chai": "~4.1.0",
+    "mocha": "~4.0.0"
   },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "standard"
+    "test": "standard ; mocha"
   },
   "engines": {
-    "node": "~6.11.2"
+    "node": "~8.9.0"
   },
   "repository": {
     "type": "git",
